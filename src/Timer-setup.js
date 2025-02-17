@@ -121,7 +121,8 @@ function App() {
               onChange={(e) => setAlignment(e.target.value)}
             >
               <option value="left">Left</option>
-              <option value="right">Right</option>
+              <option value="center">Center</option>
+              <option value="right">Right</option>  
             </select>
           </form>
         </div>
